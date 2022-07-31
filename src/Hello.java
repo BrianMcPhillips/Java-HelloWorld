@@ -9,6 +9,9 @@ public class Hello {
         int myFourthNumber = (100 * 100) * 100;
         int myFifthNumber = 6;
         int mySixthNumber = 12;
+        int myTotal = myFourthNumber + myFifthNumber;
+        int myLastOne = myTotal - 1000;
+
 
 
         System.out.println(myFirstNumber);
@@ -16,6 +19,8 @@ public class Hello {
         System.out.println(myThirdNumber);
         System.out.println(myFourthNumber);
         System.out.println(myFifthNumber * mySixthNumber);
+        System.out.println(myTotal);
+        System.out.println(myLastOne);
 
     }
 
